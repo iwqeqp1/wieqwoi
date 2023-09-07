@@ -1,0 +1,280 @@
+local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevVy17/ieuwop/main/--%5B%5B.txt"))()
+
+local test = Atlas.new({
+    Name = "AimAX BETA v1 | devy17";
+    ConfigFolder = "Aimaxscriptbeta";
+    Credit = "Made by DevVy!";
+    Color = Color3.fromRGB(164, 53, 90);
+    FullName = "AimAX BETA";
+    UseLoader = true;
+    Bind = "V";
+    CheckKey = function(e) -- this can be nil to disable key checking
+        return e == "1"
+    end;
+    Discord = "https://discord.gg/833aWTp8Bt"
+})
+
+local p1 = test:CreatePage("Main page")
+local p2 = test:CreatePage("Esp page")
+local p3 = test:CreatePage("Tools page")
+local p4 = test:CreatePage("Fun page")
+
+local s1 = p1:CreateSection("Camlock")
+local s2 = p1:CreateSection("Lock")
+local s3 = p1:CreateSection("AntiLock")
+local s4 = p2:CreateSection("Player Esp")
+local s5 = p3:CreateSection("Tools")
+local s6 = p4:CreateSection("Fun scripts")
+
+s1:CreateButton({
+    Name = "Cam Lock"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Camlock activated";
+            Content = "Key:Q DisableKey:Q/P"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/camlock/main/camlock.txt'))()
+    end
+})
+
+s1:CreateButton({
+    Name = "Smooth CamLock"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Smooth Camlock activated";
+            Content = "Key:M DisableKey:M"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/camlock/main/New%20Text%20Document.txt'))()
+    end
+})
+
+s2:CreateButton({
+    Name = "Box Lock"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "BoxLock activated";
+            Content = "Key:C DisableKey:C"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/camlock/main/boxlock.txt'))()
+    end
+})
+
+s3:CreateButton({
+    Name = "Anti Lock"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "AntiLock activated";
+            Content = "EnableKey:N TargetKey:X"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/anti34/main/--Aim%20Viewer.txt'))()
+    end
+})
+
+s3:CreateButton({
+    Name = "Aim Viewer"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "AimViewer activated";
+            Content = "EnableKey:U TargetKey:Y"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/aimview/main/aimview'))()
+    end
+})
+
+s3:CreateButton({
+    Name = "Anti Aim Viewer"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Anti AimViewer activated";
+            Content = "You dont have to do anything else"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/antiaim/main/antiaim'))()
+    end
+})
+
+s4:CreateButton({
+    Name = "Radar"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "ESP activated";
+            Content = "NOVA VAULT #1"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/esp/main/esp'))()
+    end
+})
+
+s4:CreateButton({
+    Name = "Arrows"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "ESP activated";
+            Content = "NOVA VAULT #1"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/esp/main/esp2'))()
+    end
+})
+
+s4:CreateButton({
+    Name = "Purple Highlight"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "ESP activated";
+            Content = "NOVA VAULT #1"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/esp/main/esp3'))()
+    end
+})
+
+s4:CreateButton({
+    Name = "Distance Data"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "ESP activated";
+            Content = "NOVA VAULT #1"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/esp/main/esp4'))()
+    end
+})
+
+s4:CreateButton({
+    Name = "Skeleton"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "ESP activated";
+            Content = "NOVA VAULT #1"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Eazvy/UILibs/main/ESP/Skeleton/Example'))()
+    end
+})
+
+s4:CreateButton({
+    Name = "White Box"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "ESP activated";
+            Content = "NOVA VAULT #1"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Eazvy/UILibs/main/ESP/Deity/Example'))()
+    end
+})
+
+s5:CreateButton({
+    Name = "Chat spy"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Chat spy activated";
+            Content = ""
+        })
+        loadstring(game:HttpGet('https://pastebin.com/raw/MwmrpsPK'))()
+    end
+})
+
+s5:CreateButton({
+    Name = "Headless and korblox"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "GUI activated";
+            Content = ""
+        })
+        loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+    end
+})
+
+s5:CreateButton({
+    Name = "Cash Aura"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Cash Aura activated";
+            Content = ""
+        })
+        loadstring(game:HttpGet('https://pastebin.com/raw/Bm6720yg'))()
+    end
+})
+
+s5:CreateButton({
+    Name = "Color Correction"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Color Correction activated";
+            Content = ""
+        })
+        loadstring(game:HttpGet('https://pastebin.com/raw/BnM3TR5y'))()
+    end
+})
+
+s5:CreateButton({
+    Name = "Bullet Tracer"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Bullet Tracer activated";
+            Content = ""
+        })
+        loadstring(game:HttpGet('https://pastebin.com/raw/BnM3TR5y'))()
+    end
+})
+
+s5:CreateButton({
+    Name = "Free Camera"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Free Camera activated";
+            Content = "Shift+P"
+        })
+        loadstring(game:HttpGet('https://pastebin.com/raw/DDkynEJL'))()
+    end
+})
+
+s6:CreateButton({
+    Name = "Snail"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "MOM IM A SNAIL!1!!";
+            Content = "Have fun!"
+        })
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DevVy17/snail/main/fe-snail.txt'))()
+    end
+})
+
+s6:CreateButton({
+    Name = "Fling"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Op asf";
+            Content = "Have fun!"
+        })
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+    end
+})
+
+s6:CreateButton({
+    Name = "Call all"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "If you use this you are annoying";
+            Content = "Have fun!"
+        })
+        local StarterGui = game:GetService("StarterGui")
+for i,v in pairs(game.Players:GetChildren()) do
+    if v.Name ~= game.Players.LocalPlayer.Name then
+        game.Players.LocalPlayer.Backpack["[Phone]"].Parent = game.Players.LocalPlayer.Character
+        game.ReplicatedStorage.MainEvent:FireServer("PhoneCall", tostring(v.Name))
+        task.wait()
+        game.Players.LocalPlayer.Character["[Phone]"].Parent = game.Players.LocalPlayer.Backpack
+        task.wait()
+        local success, result = pcall(StarterGui.SetCoreGuiEnabled, StarterGui, Enum.CoreGuiType.Backpack, true)
+        task.wait(.2)
+    end
+end
+    end
+})
+
+s6:CreateButton({
+    Name = "Fake star"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        test:Notify({
+            Title = "Check the file sent";
+            Content = "Fake star should be there"
+        })
+        
+    end
+})
